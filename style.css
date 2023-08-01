@@ -1,0 +1,255 @@
+
+@charset "Utf-8";
+
+* {Margin: 0;
+    Paddding: 0;
+    Box-sizing: border-box;}
+
+    
+
+header{
+
+     background-color: rgb(252, 252, 252);
+     margin: 10px;
+     padding:10px;
+     font-family: 'Open Sans', sans-serif;
+     color: #FFE961;
+     font-size: 0.738rem;
+     text-align: right;
+    
+}
+
+
+.bloco1{
+
+    font-family: 'Open Sans';
+    background-color: #FFE961;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9 rem;
+    padding: 2rem;
+    gap: 4rem;
+    
+}
+
+.imagem img {
+
+    width: 20rem; /* Especifica a largura da imagem em pixels */
+    height: auto; /* Mantém a proporção da imagem */
+    border: solid white 0.75rem;
+
+  }
+  
+
+.apresentacao{  
+
+    font-family: 'Handjet', cursive;
+    display: flex;
+    flex-direction: column;
+    font-size: 3.125rem;
+}
+
+.apresentacao h1{
+    
+    font-family: 'Handjet', cursive;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10rem;
+    justify-content: center;
+   
+  
+}
+
+
+.titulo2{
+
+    margin: 5 rem;
+    padding: 5rem;
+    background-color:white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.titulo2 p {
+     
+    font-family: 'Open Sans';
+    font-size: 20px;
+    
+}
+
+.bloco2{
+
+    background-color: white;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 6rem;
+  
+}
+
+.conteudo2{
+
+    margin-left: 0.625rem;
+    width: 400px;
+    height: 300px;
+    font-family: 'Open Sans';
+    font-size: 1.125;
+    color: rgb(35, 33, 33);
+    justify-content: left;
+    text-align: left;
+
+}
+
+.conteudo2a h1{
+
+    font-family: 'Open Sans';
+    font-size: 25px;
+    color: rgb(35, 33, 33);
+    justify-content: left;
+
+}
+
+.conteudo2a h2{
+
+    font-family: 'Open Sans';
+    color: rgb(35, 33, 33);
+    justify-content: left;
+
+}
+
+.conteudo2a p{
+
+    font-family: 'Open Sans';
+    color: rgb(35, 33, 33);
+    justify-content: left;
+
+
+}
+
+.imagem2{
+
+    width: 300px; /* Especifica a largura da imagem em pixels */
+    height: 300px; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Transforma a foto quadrada em redonda */
+    border: 10px solid #FFE961;
+    overflow: hidden; /* Certifique-se de que a borda não transborde o círculo */
+    
+}
+
+.imagem2 img {
+    width: 100%; /* Ajusta a imagem para preencher o círculo */
+    height: 100%; /* Ajusta a imagem para preencher o círculo */
+    object-fit: cover; /* Redimensiona a imagem para cobrir todo o círculo */
+
+}
+
+.bloco3{
+
+    background-color: #FFE961;
+    display: flex;
+    justify-content: space-around;
+    width:auto;
+    height: auto;
+    margin: 3 rem;
+    padding: 3 rem;
+    padding-bottom: 4rem;
+
+}
+
+.titulo3{
+
+    margin: 5 rem;
+    padding: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    background-color: #FFE961;
+    justify-content: center;
+    text-align: center;
+}
+.lista1{
+
+    margin-left: 0.625rem;
+    background-color: #FFF4AD;
+    padding: 5rem;
+    width: 400px;
+    height: 300px;    
+    margin: 10px;
+    font-family: 'Open Sans';
+    font-size: 1.125;
+    color: rgb(35, 33, 33);
+    justify-content: left;
+    text-align: left;
+}
+
+.lista2{
+
+    margin-left: 0.625rem;
+    padding: 5rem;
+    width: 400px;
+    height: 300px;    
+    margin: 10px;
+    font-family: 'Open Sans';
+    font-size: 1.125;
+    background-color:#FFF4AD ;
+    color: rgb(35, 33, 33);
+    justify-content: left;
+    text-align: left;
+}
+
+.lista3{
+
+    margin-left: 0.625rem;
+    padding: 5rem;
+    width: 400px;
+    height: 300px;    
+    margin: 10px;
+    font-family: 'Open Sans';
+    font-size: 1.125;
+    background-color:#FFF4AD ;
+    color: rgb(35, 33, 33);
+    justify-content: left;
+    text-align: left;
+}
+.lista4{
+
+    margin-left: 0.625rem;
+    padding: 5rem;
+    width: 400px;
+    height: 300px;    
+    margin: 10px;
+    font-family: 'Open Sans';
+    font-size: 1.125;
+    background-color:#FFF4AD ;
+    color: rgb(35, 33, 33);
+    justify-content: left;
+    text-align: left;
+}
+
+.bloco4{
+
+    background-color: white;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: 'Open Sans';
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin: 3 rem;
+    padding: 2rem;
+    gap: 4rem;
+ 
+}
+
+footer{
+
+background-color: #665811;
+color: rgb(255, 255, 255);
+font-family: 'Open Sans', sans-serif;
+margin-right: auto;
+margin-left: auto;
+margin: 3 rem;
+padding: 2rem;
+}
